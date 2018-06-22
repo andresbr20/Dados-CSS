@@ -1,0 +1,83 @@
+
+.contenedor {
+    
+    display: flex; 
+    width: 800px;
+    height: 800px;
+    background-color: #00FF00; 
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.dado {
+       display: flex;
+       flex-flow: row wrap;
+       justify-content: space-around;
+       align-items: center;     
+       background: white;
+       width: 200px;
+       height: 200px;
+       border-radius: 15px;
+       border: black 2px solid;
+       margin: 20px;
+}
+.circulo{
+    width: 30px;
+    height: 30px;
+    background-color:black;
+    border-radius: 50%;
+    margin: 15px;
+} 
+.contenedor-tres {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.dos{
+    align-self: flex-start; 
+}
+.tres{
+    align-self: flex-end; 
+}
+.cuatro{
+    align-self: flex-start; 
+}
+.cinco{
+    align-self: center; 
+    
+}
+.seis{
+    align-self: flex-end; 
+    
+}
+.contenedor-cuatro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60px;
+    height: 180px;
+}
+.contenedor-cinco{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60px;
+    height: 180px;
+}
+
+.contenedor-seis{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60px;
+    height: 180px;
+}
+.contenedor-ocho, .contenedor-nueve, .contenedor-diez {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60px;
+    height: 180px;
+}
